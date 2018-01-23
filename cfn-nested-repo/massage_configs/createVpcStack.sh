@@ -15,4 +15,5 @@ aws cloudformation describe-stacks \
     --stack-name $stack_name --query 'Stacks[*].Outputs[*]' > $temp_json_file
     #| jq  ".Stacks[].Outputs[]
 
-node replace.js
+#node replace.js &&
+node replace_pipeline.js

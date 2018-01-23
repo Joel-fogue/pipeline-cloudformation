@@ -31,10 +31,10 @@ function writeOut(readFromFile, writeToFile, vPCID, privateSubnet1, privateSubne
   fs.writeFile(path.resolve(__dirname, writeToFile), JSON.stringify(jsonContent), (err) => {
       if (err) throw err;
   });
-  console.log("jsonContent:", jsonContent, "\n-------------------------------------");
+  //console.log("jsonContent:", jsonContent, "\n-------------------------------------");
 }
 
-function getConfigVal(jsonArray, configKey, fn){
+function getConfigVal(jsonArray, configKey){
   var tempVal='', found='';
   for(var i=0; i<jsonArray.length; i++){
     tempVal = lookUpKey(jsonArray[i], configKey);
