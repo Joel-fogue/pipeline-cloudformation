@@ -1,0 +1,59 @@
+[
+    [
+        {
+            "Description": "Subnet ID of private subnet in AZ1", 
+            "OutputKey": "PrivateSubnet1", 
+            "OutputValue": "subnet-f1107dde"
+        }, 
+        {
+            "Description": "Subnet ID of private subnet in AZ2", 
+            "OutputKey": "PrivateSubnet2", 
+            "OutputValue": "subnet-6d95be26"
+        }, 
+        {
+            "Description": "Name of the SNS Topic for UAT Approval", 
+            "OutputKey": "UATTopic", 
+            "OutputValue": "NestedCFnBaseStack-UATTopic-12SL85N09LOC4"
+        }, 
+        {
+            "Description": "VPC ID", 
+            "OutputKey": "VPCID", 
+            "OutputValue": "vpc-9e6c64e6"
+        }, 
+        {
+            "Description": "NAT Gateway ID in AZ2", 
+            "OutputKey": "NATEIP2", 
+            "OutputValue": "nat-038e5628614bc9d32"
+        }, 
+        {
+            "Description": "NAT Gateway ID in AZ1", 
+            "OutputKey": "NATEIP1", 
+            "OutputValue": "nat-09f4fd1b28ea168ba"
+        }, 
+        {
+            "Description": "Subnet ID of public subnet in AZ2", 
+            "OutputKey": "PublicSubnet2", 
+            "OutputValue": "subnet-6c664c27"
+        }, 
+        {
+            "Description": "Name of the S3 bucket", 
+            "OutputKey": "S3BucketName", 
+            "OutputValue": "nestedcfnbasestack-s3bucket-1de8jmghe23oy"
+        }, 
+        {
+            "Description": "Name of the SNS Topic for Prod Approval", 
+            "OutputKey": "ProdTopic", 
+            "OutputValue": "NestedCFnBaseStack-ProdTopic-EW2K2J628NBU"
+        }, 
+        {
+            "Description": "Subnet ID of public subnet in AZ1", 
+            "OutputKey": "PublicSubnet1", 
+            "OutputValue": "subnet-716c015e"
+        }, 
+        {
+            "Description": "Name of the DB Subnet group", 
+            "OutputKey": "DBSubnetGroup", 
+            "OutputValue": "nestedcfnbasestack-rdssubnetgroup-7oph1c445iqj"
+        }
+    ]
+]
